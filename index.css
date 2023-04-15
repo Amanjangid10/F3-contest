@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: gray;
+    margin: 50px;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+
+.input1 {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.input1>input {
+    margin: 10px 0 10px 0;
+    width: 25rem;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: gray;
+}
+
+.btn {
+    width: 15rem;
+    height: 3rem;
+    border-radius: 5px;
+}
